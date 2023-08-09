@@ -18,7 +18,7 @@ useEffect(() => {
 fetchSelecctedContact()
 }, [])
   return (
-    <div>
+    <div >
         <p>
             <b>Name:</b> {contact.name}
         </p>

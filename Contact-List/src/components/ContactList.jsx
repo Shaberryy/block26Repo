@@ -26,12 +26,14 @@ export default function ContactList({ chosenId }) {
     fetchContacts();
   }, []);
   return (
+    
     <>
+
       <table>
         <thead>
           {/* <h1>Contact List</h1> */}
           <tr>
-            <th colSpan="3">Contact List</th>
+            <th colSpan="3">Hit List :3</th>
           </tr>
         </thead>
         <tbody>
